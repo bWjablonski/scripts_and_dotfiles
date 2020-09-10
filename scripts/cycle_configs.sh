@@ -1,7 +1,7 @@
 #/bin/bash
 CONFIG_LIST+=('/etc/resolv.conf')
-CONFIG_LIST+=('$HOME/.config/pypoetry/config.toml')
-CONFIG_LIST+=('$HOME/.config/pip/pip.conf')
+CONFIG_LIST+=($HOME/.config/pypoetry/config.toml)
+CONFIG_LIST+=($HOME/.config/pip/pip.conf)
 
 CONFIG_LIST_SUDO+=(1)
 CONFIG_LIST_SUDO+=(0)
